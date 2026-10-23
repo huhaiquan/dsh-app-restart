@@ -75,12 +75,9 @@ window appears again and the previous conversation is still in the session log.
 
 Published repository: <https://github.com/huhaiquan/dsh-app-restart>
 
-The installed copy is a local package, not a registry install. Its source lives
-in the profile directory so it sits beside every other plugin:
-
-```
-C:\Users\95237\.dsh\profiles\desktop\local-plugins\dsh-app-restart
-```
+The author's installed copy is a local package, not a registry install: its
+source lives in the profile directory beside every other plugin, at
+`$DSH_PROFILE_DIR/local-plugins/dsh-app-restart`.
 
 `plugin_manager install_bundle` records it as a `link:` dependency, so the
 profile's `node_modules/@local/dsh-app-restart` is a symlink to that directory —
