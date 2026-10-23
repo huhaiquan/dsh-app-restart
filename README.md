@@ -1,5 +1,7 @@
 # Auto Restart (dsh-app-restart)
 
+English | [简体中文](README.zh-CN.md)
+
 A small DSH bundle with one control: a compact restart button in the window's
 caption strip, immediately left of the native minimize/maximize/close buttons.
 Clicking it quits the DeepSeek Harness desktop application and starts it again
