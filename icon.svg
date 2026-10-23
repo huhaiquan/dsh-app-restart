@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Auto Restart">
+  <defs>
+    <linearGradient id="dsh-app-restart-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b8eea"/>
+      <stop offset="1" stop-color="#1f4f96"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="15" fill="url(#dsh-app-restart-bg)"/>
+  <g transform="translate(8 8) scale(2)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 12a9 9 0 1 1-2.64-6.36"/>
+    <path d="M21 3v6h-6"/>
+  </g>
+</svg>

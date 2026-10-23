@@ -1,0 +1,8 @@
+# Bundle patch for @local/dsh-app-restart.
+#
+# One Host row renders nothing and owns only the restart control route; the
+# Client half (dsh.client in package.json) draws the button in the session
+# header. Installing the bundle adds this row to the profile's Loader tree.
+- insert:
+    - id: dsh-app-restart
+      name: '@local/dsh-app-restart'

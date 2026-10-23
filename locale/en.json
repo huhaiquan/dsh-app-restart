@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Auto Restart",
+    "description": "Adds a restart control at the right of the session header: the desktop app quits and relaunches itself automatically, then restores its window."
+  }
+}
